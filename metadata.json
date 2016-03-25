@@ -2,7 +2,7 @@
   "name": "ecfsla-foreman_reports",
   "version": "0.1.0",
   "author": "ecfsla",
-  "summary": null,
+  "summary": "Prune old reports over time",
   "license": "Apache 2.0",
   "source": "",
   "project_page": null,
