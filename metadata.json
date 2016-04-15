@@ -1,12 +1,12 @@
 {
-  "name": "ecfsla-foreman_reports",
+  "name": "jcpunk-foreman_reports",
   "version": "0.1.1",
-  "author": "ecfsla",
+  "author": "Pat Riehecky",
   "summary": "Prune old reports over time",
   "license": "Apache 2.0",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "source": "https://github.com/jcpunk/foreman_reports",
+  "project_page": "https://github.com/jcpunk/foreman_reports",
+  "issues_url": "https://github.com/jcpunk/foreman_reports/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
