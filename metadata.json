@@ -1,6 +1,6 @@
 {
   "name": "jcpunk-foreman_reports",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Pat Riehecky",
   "summary": "Prune old reports over time",
   "license": "Apache 2.0",

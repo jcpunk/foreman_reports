@@ -13,9 +13,9 @@ class foreman_reports (
     owner   => 'root',
     group   => 'root',
     content => "#!/bin/bash
-foreman-rake reports:expire days=${max_days_noactions} status=0 >/dev/null 2>&1
-foreman-rake reports:expire days=${max_days_all} >/dev/null 2>&1
-foreman-rake foreman_tasks:cleanup AFTER=${max_days_task_log} >/dev/null 2>&1
+foreman-rake reports:expire days=${max_days_noactions} status=0 2>&1 | logger
+foreman-rake reports:expire days=${max_days_all} 2>&1 | logger
+foreman-rake foreman_tasks:cleanup AFTER=${max_days_task_log} 2>&1 | logger
 exit 0
 "
   }
